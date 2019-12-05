@@ -1,7 +1,7 @@
 <?php
       $host     = "localhost";
       $user     = "root";
-      $password = "jair.gandallin";
+      $password = "password";
       $db = "NCGA";
       $conexion=mysql_connect($host,$user,$password) or die ("Problemas con servidor");
       mysql_select_db($db,$conexion) or die("Base de datos en mantenimiento");
