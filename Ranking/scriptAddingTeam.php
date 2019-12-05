@@ -2,7 +2,7 @@
 /*--------------------CONEXION A BASE DE DATOS-----------------------*/
 $host     = "localhost";
 $user     = "root";
-$password = "jair.gandallin";
+$password = "password";
 $db = "NCGA";
 
 $conexion=mysql_connect($host,$user,$password) or die ("Problemas con servidor");
